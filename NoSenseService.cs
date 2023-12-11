@@ -16,4 +16,9 @@ public class NoSenseService
     //{
     //    return ValueTask.FromResult(false);
     //}
+
+    public ValueTask<bool> IsNosense2()
+    {
+        return ValueTask.FromResult(false);
+    }
 }

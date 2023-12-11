@@ -6,4 +6,9 @@ public class NoSenseService
     {
         return ValueTask.FromResult(true);
     }
+
+    public ValueTask<bool> IsNosense()
+    {
+        return ValueTask.FromResult(false);
+    }
 }

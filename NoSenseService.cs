@@ -11,4 +11,9 @@ public class NoSenseService
     //{
     //    return ValueTask.FromResult(false);
     //}
+
+    public ValueTask<bool> HasId()
+    {
+        return ValueTask.FromResult(false);
+    }
 }
